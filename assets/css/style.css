@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Gelasio';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.btn {
+    padding: 15px 30px;
+    background: #1B75BB;
+    border-radius: 5px;
+    border: #1B75BB;
+    color: #FFFFFF;
+    font-family: 'Gelasio';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* SERENITY */
+.menu {
+    background-image: url(../imgs/background-serenity.png);
+    background-size: cover;
+    max-width: 1630px;
+    min-height: 690px;
+    padding: 0 15px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 197px ;
+}
+
+.header {
+    padding-top: 28px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-right: 170px;
+
+}
+
+.logo__name {
+    font-family: 'Gelasio';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    color: #081F32;
+    position: absolute;
+    right: -40px;
+}
+
+.header__navigation {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    min-width: 337px;
+}
+
+.header__navigation-link {
+    text-decoration: none;
+    font-family: 'Gelasio';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: rgba(8, 31, 50, 1);
+}
+
+.active {
+    color: #1B75BB;
+}
+
+.header__button {
+    margin-left: auto;
+}
+
+.serenity {
+    margin-top: 113px;
+}
+.serenity__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #1B75BB;
+    opacity: 0.8;
+    margin-left: 21px;
+    margin-bottom: 15px;
+}
+
+.serenity__quote {
+    font-family: 'Gelasio';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 57px;
+    line-height: 120%;
+    color: #081F32;
+    max-width: 456px;
+    margin-left: 21px;
+    margin-bottom: 25px;
+}
+
+.serenity-quote-color {
+    color: rgba(27, 117, 187, 1);
+}
+
+.serenity__description {
+    margin-left: 21px;
+    max-width: 347px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #081F32;
+    opacity: 0.6;
+    margin-bottom: 45px;
+
+}
+
+.serenity__btn {
+    margin-left: 21px;
+}
+
+.room-finder {
+    background: rgba(255, 255, 255, 0.21);
+    background-size: cover;
+    backdrop-filter: blur(70px);
+    border-radius: 10px;
+    min-width: 687px;
+    min-height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -65px;
+    left: 230px;
+}
+
+.room-finder__info {
+    margin-right: 60px;
+    position: relative;
+}
+
+.room-finder__info::after {
+    content: "";
+    opacity: 0.4;
+    border: 2px solid #9DACB8;
+    border-bottom: 0;
+    border-radius: 40px;
+    transform: rotate(90deg);
+    position: absolute;
+    min-width: 34px;
+    left: -48px;
+    bottom: 29px;
+}
+
+.room-finder__info:first-child::after {
+    border: 0;
+}
+
+
+.room-finder__info__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    color: #081F32;
+    margin-bottom: 10px;
+}
+
+.room-finder__info__value {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #081F32;
+    opacity: 0.8;
+}
+
+/* /SERENITY */
+
+/* HOLIDAYS */
+
+.holidays {
+    padding: 100px 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.holidays-images {
+    position: relative;
+}
+
+.holidays-main-img {
+    border-radius: 10px;
+}
+
+.holidays-background-img {
+    position: absolute;
+    opacity: 0.5;
+    top: -50px;
+    right: -60px;
+    z-index: -1;
+    border-radius: 10px;
+}
+
+.holidays-sprite-img {
+    position: absolute;
+    left: -30px;
+    bottom: -30px;
+    z-index: -1;
+}
+
+.holidays-content {
+    padding-left: 70px;
+}
+
+/* /HOLIDAYS */
+
+/* COMMENTS */
+.comments {
+
+}
+
+.comment {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    box-shadow: 0px 4px 30px rgba(199, 199, 199, 0.25);
+    border-radius: 10px;
+    width: 325px;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.comment--opacity:hover {
+    opacity: 1;
+}
+
+.comment--opacity:hover .comment-text::before{
+    filter: grayscale(0%)
+}
+
+.comment__img {
+
+}
+
+.comment__text {
+    position: relative;
+}
+
+.comment__text::before {
+    /* content: url(../imgs/quotes.svg); */
+    content: "";
+    display: block;
+    width: 24px;
+    height: 20px;
+    background-image: url(../imgs/quotes.svg);
+    filter: grayscale(100%);
+    position: absolute;
+    top: -25px;
+    left: 0;
+}
+
+.comment__name {
+
+}
+
+.comment__link
+
+/* /COMMENTS  */
