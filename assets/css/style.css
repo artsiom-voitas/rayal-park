@@ -88,6 +88,10 @@ html {
     color: rgba(8, 31, 50, 1);
 }
 
+.header__navigation-link:hover {
+    color: #1B75BB;
+}
+
 .active {
     color: #1B75BB;
 }
