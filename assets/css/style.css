@@ -43,7 +43,7 @@ html {
     padding: 0 15px;
     margin: 0 auto;
     position: relative;
-    margin-bottom: 197px ;
+    margin-bottom: 244px ;
 }
 
 .header {
@@ -151,7 +151,7 @@ html {
     margin-left: 21px;
 }
 
-.room-finder {
+.finder {
     background: rgba(255, 255, 255, 0.21);
     background-size: cover;
     backdrop-filter: blur(70px);
@@ -163,15 +163,15 @@ html {
     justify-content: center;
     position: absolute;
     bottom: -65px;
-    left: 230px;
+    left: 220px;
 }
 
-.room-finder__info {
+.finder__info {
     margin-right: 60px;
     position: relative;
 }
 
-.room-finder__info::after {
+.finder__info::after {
     content: "";
     opacity: 0.4;
     border: 2px solid #9DACB8;
@@ -184,12 +184,11 @@ html {
     bottom: 29px;
 }
 
-.room-finder__info:first-child::after {
+.finder__info:first-child::after {
     border: 0;
 }
 
-
-.room-finder__info__title {
+.finder__info-title {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -199,7 +198,7 @@ html {
     margin-bottom: 10px;
 }
 
-.room-finder__info__value {
+.finder__info-value {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -208,19 +207,18 @@ html {
     color: #081F32;
     opacity: 0.8;
 }
-
 /* /SERENITY */
 
-/* HOLIDAYS */
 
+/* HOLIDAYS */
 .holidays {
-    padding: 100px 0 100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 155px;
 }
 
-.holidays-images {
+.holidays__images {
     position: relative;
 }
 
@@ -231,8 +229,8 @@ html {
 .holidays-background-img {
     position: absolute;
     opacity: 0.5;
-    top: -50px;
-    right: -60px;
+    top: -47px;
+    right: -35px;
     z-index: -1;
     border-radius: 10px;
 }
@@ -244,15 +242,200 @@ html {
     z-index: -1;
 }
 
-.holidays-content {
+.holidays__content {
     padding-left: 70px;
 }
 
+.holiday__content-subtitle {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #1B75BB;
+    opacity: 0.8;
+    margin-bottom: 15px;
+}
+
+.holiday__content-title {
+    font-family: 'Gelasio';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 140%;
+    color: #081F32;
+    margin-bottom: 31px;
+}
 /* /HOLIDAYS */
+
+
+/* ADVANTAGES */
+.advantages {
+    margin-bottom: 140px;
+}
+.advantages__heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.advantages__heading-title {
+    margin-bottom: 25px;
+    font-family: 'Gelasio';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 140%;
+    color: #081F32;
+}
+
+.advantages__heading-subtitle {
+    max-width: 819px;
+    margin-bottom: 60px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #081F32;
+    opacity: 0.6;
+}
+
+.advantages__block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantages__block-item {
+    max-width: 262px;
+    min-height: 258px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    box-shadow: 0px 4px 30px rgba(199, 199, 199, 0.25);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 21px;
+    padding-bottom: 17.59px;
+}
+
+.advantages__block-item-title {
+    font-family: 'Gelasio';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    color: #081F32;
+    margin-top: 40px;
+}
+
+.advantages__block-item-subtitle {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+    color: #081F32;
+    opacity: 0.6;
+}
+/* /ADVANTAGES */
+
+
+/* GALLERY */
+.gallery {
+    min-height: 1071px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.gallery__item-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.gallery__item {
+    position: relative;
+}
+
+.gallery__title {
+    font-family: 'Gelasio';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 140%;
+    color: #081F32;
+    margin-bottom: 25px;
+}
+
+.gallery__subtitle {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #081F32;
+    opacity: 0.6;
+    margin-bottom: 30px;
+    max-width: 439px;
+}
+
+.gallery__item-box {
+    position: absolute;
+    background: rgba(226, 226, 226, 0.4);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    min-width: 231px;
+    min-height: 126px;
+    bottom: 7px;
+    padding: 23px 28px;
+}
+
+.gallery__item-box-description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.item__name {
+    font-family: 'Gelasio';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #081F32;
+}
+
+.item__cost {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+    color: #081F32;
+    opacity: 0.8;
+}
+
+.item__btn {
+    padding: 10px 20px;
+}
+
+
+/* /GALLERY */
+
 
 /* COMMENTS */
 .comments {
-
+    margin-top: 100px;
 }
 
 .comment {

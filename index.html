@@ -34,7 +34,7 @@
                     <a class="header__navigation-link" href="#">Features</a>    
                 </li>
                 <li>
-                    <a class="header__navigation-link" href="#">Gallary</a>    
+                    <a class="header__navigation-link" href="#">Gallery</a>    
                 </li>
                 <li>
                     <a class="header__navigation-link" href="#">Testimonials</a>    
@@ -47,18 +47,18 @@
             <h2 class="serenity__quote">Stay with us feel like <span class="serenity-quote-color">home</span>.</h2>
             <h3 class="serenity__description">Pet-friendly hotels are becoming increasingly popular; appealing to travellers who can’t bear to be parted.</h3>
             <a class="serenity__btn btn" href="#">Read more</a>
-            <div class="room-finder">
-                <div class="room-finder__info">
-                    <p class="room-finder__info__title">Cheek in</p>
-                    <p class="room-finder__info__value">10 Feb 2021</p>
+            <div class="finder">
+                <div class="finder__info">
+                    <p class="finder__info-title">Cheek in</p>
+                    <p class="finder__info-value">10 Feb 2021</p>
                 </div>
-                <div class="room-finder__info">
-                    <p class="room-finder__info__title">Cheek out</p>
-                    <p class="room-finder__info__value">10 Feb 2021</p>
+                <div class="finder__info">
+                    <p class="finder__info-title">Cheek out</p>
+                    <p class="finder__info-value">10 Feb 2021</p>
                 </div>
-                <div class="room-finder__info">
-                    <p class="room-finder__info__title">Person</p>
-                    <p class="room-finder__info__value">2 Adults 1 kid</p>
+                <div class="finder__info">
+                    <p class="finder__info-title">Person</p>
+                    <p class="finder__info-value">2 Adults 1 kid</p>
                 </div>
                 <a class="btn" href="#">Find room</a>
             </div>
@@ -68,27 +68,123 @@
         
     <main class="container">
         <!-- HOLIDAYS -->
-        <section class="holidays">
-            <div class="holidays-images">
+        <div class="holidays">
+            <div class="holidays__images">
                 <img class="holidays-main-img" src="./assets/imgs/holidays-main.jpg" alt="">
                 <img class="holidays-background-img" src="./assets/imgs/holidays-background.jpg" alt="">
                 <img class="holidays-sprite-img" src="./assets/imgs/holidays-sprite.jpg" alt="">
             </div>
 
-            <div class="holidays-content">
-                <h3 class="holiday-subtitle">Dream holidays</h3>
-                <h2 class="holiday-title">Enjoy unforgettable experiences in dream hotels.</h2>
+            <div class="holidays__content">
+                <h3 class="holiday__content-subtitle">Dream holidays</h3>
+                <h2 class="holiday__content-title">Enjoy unforgettable experiences in dream hotels.</h2>
                 <button class="btn">View more</button>
             </div>
-        </section>
+        </div>
         <!-- /HOLIDAYS -->
 
+        <!-- ADVANTAGES -->
+        <div class="advantages">
+            <div class="advantages__heading">
+                <h2 class="advantages__heading-title">Why you choose us!</h2>
+                <h3 class="advantages__heading-subtitle">Naturally, it’s becoming even more important for hotel and hospitality brands to stand out from the crowd. Content marketing remains a key way for hotels to do this.</h3>
+            </div>
+            <div class="advantages__block">
+                <div class="advantages__block-item">
+                    <img src="./assets/imgs/advantages/easy-booking.png" alt="Easy booking">
+                    <h2 class="advantages__block-item-title">Easy booking</h2>
+                    <h3 class="advantages__block-item-subtitle">The booking process should include minimal steps.</h3>
+                </div>
+                <div class="advantages__block-item">
+                    <img src="./assets/imgs/advantages/friendly-interface.png" alt="Friendly interface">
+                    <h2 class="advantages__block-item-title">Friendly interface</h2>
+                    <h3 class="advantages__block-item-subtitle">A hotel booking engine with a good user-friendly.</h3>
+                </div>
+                <div class="advantages__block-item">
+                    <img src="./assets/imgs/advantages/responsibility.png" alt="Responsibility">
+                    <h2 class="advantages__block-item-title">Responsibility</h2>
+                    <h3 class="advantages__block-item-subtitle">You should be able to add rooms to your system.</h3>
+                </div>
+                <div class="advantages__block-item">
+                    <img src="./assets/imgs/advantages/order-supply.png" alt="Quick order supply">
+                    <h2 class="advantages__block-item-title">Quick order supply</h2>
+                    <h3 class="advantages__block-item-subtitle">The booking process should include minimal steps.</h3>
+                </div>
+            </div>
+        </div>
+        <!-- /ADVANTAGES -->
 
-        <section class="gallery">
-            <div class="gallery__title"></div>
-            <div class="gallery__decription"></div>
-            <button class="btn"></button>
-        </section>
+        <!-- GALLERY -->
+        <div class="gallery">
+            <div class="gallery__item-block">
+                <div class="gallery__item">
+                    <h2 class="gallery__title">About hotel gallery</h2>
+                    <h3 class="gallery__subtitle">While some of these examples are real – actually offering guests a stay in the locations advertised – it’s mainly just a way.</h3>
+                    <a class="btn" href="#">View more</a>
+                </div>
+                <div class="gallery__item">
+                    <img src="./assets/imgs/gallery/lux-room.png" alt="Lux Room">
+                    <div class="gallery__item-box">
+                        <div class="gallery__item-box-description">
+                            <h3 class="item__name">Lux: Room</h3>
+                            <h4 class="item__cost">$60 night</h4>
+                        </div>
+                        <a class="btn item__btn" href="#">Book now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery__item-block">
+                <div class="gallery__item">
+                    <img src="./assets/imgs/gallery/mini-room.png" alt="Mini Room">
+                    <div class="gallery__item-box">
+                        <div class="gallery__item-box-description">
+                            <h3 class="item__name">Mini Room</h3>
+                            <h4 class="item__cost">$70 night</h4>
+                        </div>
+                        <a class="btn item__btn" href="#">Book now</a>
+                    </div>
+                </div>
+                <div class="gallery__item">
+                    <img src="./assets/imgs/gallery/stande-room.png" alt="Stande Room">
+                    <div class="gallery__item-box">
+                        <div class="gallery__item-box-description">
+                            <h3 class="item__name">Stande Room</h3>
+                            <h4 class="item__cost">$65 night</h4>
+                        </div>
+                        <a class="btn item__btn" href="#">Book now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery__item-block">
+                <div class="gallery__item">
+                    <img src="./assets/imgs/gallery/single-room.png" alt="Single Room">
+                    <div class="gallery__item-box">
+                        <div class="gallery__item-box-description">
+                            <h3 class="item__name">Single Room</h3>
+                            <h4 class="item__cost">$55 night</h4>
+                        </div>
+                        <a class="btn item__btn" href="#">Book now</a>
+                    </div>
+                </div>
+                <div class="gallery__item">
+                    <img src="./assets/imgs/gallery/elite-room.png" alt="Elite Room">
+                    <div class="gallery__item-box">
+                        <div class="gallery__item-box-description">
+                            <h3 class="item__name">Elite Room</h3>
+                            <h4 class="item__cost">$65 night</h4>
+                        </div>
+                        <a class="btn item__btn" href="#">Book now</a>
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+
+        <!-- /GALLERY -->
+
+
+
         <!-- COMMENTS -->
         <section class="comments">
             <h2 class="comments__title">What our client say</h2>
