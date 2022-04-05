@@ -17,6 +17,7 @@ html {
     max-width: 1170px;
     padding: 0 15px;
     margin: 0 auto;
+    position: relative;
 }
 
 .btn {
@@ -44,11 +45,9 @@ html {
 .menu {
     background-image: url(../imgs/background-serenity.png);
     background-size: cover;
-    max-width: 1630px;
     min-height: 690px;
     padding: 0 15px;
     margin: 0 auto;
-    position: relative;
     margin-bottom: 244px ;
 }
 
@@ -84,7 +83,7 @@ html {
     min-width: 337px;
 }
 
-.header__navigation-link {
+.navigation__link {
     text-decoration: none;
     font-family: 'Gelasio';
     font-style: normal;
@@ -94,7 +93,7 @@ html {
     color: rgba(8, 31, 50, 1);
 }
 
-.header__navigation-link:hover {
+.navigation__link:hover {
     color: #1B75BB;
 }
 
@@ -168,8 +167,8 @@ html {
     align-items: center;
     justify-content: center;
     position: absolute;
-    bottom: -65px;
-    left: 220px;
+    bottom: -175px;
+    left: -34px;
 }
 
 .finder__info {
@@ -194,7 +193,7 @@ html {
     border: 0;
 }
 
-.finder__info-title {
+.finder__title {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -204,7 +203,7 @@ html {
     margin-bottom: 10px;
 }
 
-.finder__info-value {
+.finder__value {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -228,11 +227,11 @@ html {
     position: relative;
 }
 
-.holidays-main-img {
+.holidays__main-img {
     border-radius: 10px;
 }
 
-.holidays-background-img {
+.holidays__background-img {
     position: absolute;
     opacity: 0.5;
     top: -47px;
@@ -241,7 +240,7 @@ html {
     border-radius: 10px;
 }
 
-.holidays-sprite-img {
+.holidays__sprite-img {
     position: absolute;
     left: -55px;
     bottom: -78px;
@@ -252,7 +251,7 @@ html {
     padding-left: 70px;
 }
 
-.holiday__content-subtitle {
+.holiday__subtitle {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -265,7 +264,7 @@ html {
     margin-bottom: 15px;
 }
 
-.holiday__content-title {
+.holiday__title {
     font-family: 'Gelasio';
     font-style: normal;
     font-weight: 500;
@@ -289,7 +288,7 @@ html {
     text-align: center;
 }
 
-.advantages__heading-title {
+.advantages__title {
     margin-bottom: 25px;
     font-family: 'Gelasio';
     font-style: normal;
@@ -299,7 +298,7 @@ html {
     color: #081F32;
 }
 
-.advantages__heading-subtitle {
+.advantages__subtitle {
     max-width: 819px;
     margin-bottom: 60px;
     font-family: 'Roboto';
@@ -316,7 +315,7 @@ html {
     justify-content: space-between;
 }
 
-.advantages__block-item {
+.advantages__item {
     max-width: 262px;
     min-height: 258px;
     background: #FFFFFF;
@@ -333,12 +332,12 @@ html {
     opacity: 0.8;
 }
 
-.advantages__block-item:hover {
+.advantages__item:hover {
     opacity: 1;
     cursor: pointer;
 }
 
-.advantages__block-item-title {
+.advantages__item-title {
     font-family: 'Gelasio';
     font-style: normal;
     font-weight: 500;
@@ -348,7 +347,7 @@ html {
     margin-top: 40px;
 }
 
-.advantages__block-item-subtitle {
+.advantages__item-subtitle {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -365,13 +364,9 @@ html {
 .gallery {
     min-height: 1071px;
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
-}
-.gallery__item-block {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-wrap: wrap;
+
 }
 
 .gallery__item {
@@ -400,22 +395,24 @@ html {
     max-width: 439px;
 }
 
-.gallery__item-box {
+.gallery__box {
     position: absolute;
     background: rgba(226, 226, 226, 0.4);
     backdrop-filter: blur(10px);
     border-radius: 10px;
     min-width: 231px;
     min-height: 126px;
-    bottom: 7px;
+    bottom: 20px;
     padding: 23px 28px;
 }
 
-.gallery__item-box-description {
+.item__description {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 18px;
+    max-width: 193px;
+    min-height: 80px;
 }
 
 .item__name {
@@ -440,8 +437,6 @@ html {
 .item__btn {
     padding: 10px 20px;
 }
-
-
 /* /GALLERY */
 
 
