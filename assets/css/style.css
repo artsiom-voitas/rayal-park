@@ -34,6 +34,12 @@ html {
     text-decoration: none;
 }
 
+.btn:hover {
+    background: #FFFFFF;;
+    border: 1px solid #1B75BB;
+    color: #1B75BB;
+}
+
 /* SERENITY */
 .menu {
     background-image: url(../imgs/background-serenity.png);
