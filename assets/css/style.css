@@ -366,6 +366,8 @@ html {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    align-items: center;
+    align-content: space-between;
 
 }
 
@@ -402,7 +404,7 @@ html {
     border-radius: 10px;
     min-width: 231px;
     min-height: 126px;
-    bottom: 20px;
+    bottom: 7px;
     padding: 23px 28px;
 }
 
@@ -411,6 +413,7 @@ html {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    align-content: space-between;
     max-width: 193px;
     min-height: 80px;
 }
