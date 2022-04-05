@@ -330,6 +330,12 @@ html {
     align-items: center;
     padding-top: 21px;
     padding-bottom: 17.59px;
+    opacity: 0.8;
+}
+
+.advantages__block-item:hover {
+    opacity: 1;
+    cursor: pointer;
 }
 
 .advantages__block-item-title {
