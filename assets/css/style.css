@@ -587,7 +587,7 @@ html {
 }
 
 .subscription__box:invalid {
-    background-color: rgb(241, 52, 52);
+    background-color: pink;
 }
 
 .subscription--position {
