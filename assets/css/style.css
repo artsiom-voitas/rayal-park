@@ -39,6 +39,7 @@ html {
     background: #FFFFFF;
     border: 1px solid #1B75BB;
     color: #1B75BB;
+    cursor: pointer;
 }
 
 /* SERENITY */
@@ -583,6 +584,10 @@ html {
 .subscription__form {
     position: relative;
     max-width: 569px;
+}
+
+.subscription__box:invalid {
+    background-color: rgb(241, 52, 52);
 }
 
 .subscription--position {
