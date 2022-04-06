@@ -22,9 +22,9 @@
     <!-- SERENITY -->
     <div class="menu">
         <header class="container header">
-            <a class="logo" href="#">
+            <a class="logo logo-header" href="#">
                 <img class="logo__image" src="./assets/imgs/logo.png" alt="Rayal Park Logo">
-                <p class="logo__name">Rayal Park</p>
+                <p class="logo__name header-logo-name">Rayal Park</p>
             </a>
             <ul class="header__navigation">
                 <li>
@@ -44,7 +44,7 @@
         </header>
         <div class="container serenity">
             <h3 class="serenity__title">Serenity</h3>
-            <h2 class="serenity__quote">Stay with us feel like <span class="serenity-quote-color">home</span>.</h2>
+            <h2 class="serenity__quote">Stay with us feel like <span class="serenity-quote--color">home</span>.</h2>
             <h3 class="serenity__description">Pet-friendly hotels are becoming increasingly popular; appealing to travellers who can’t bear to be parted.</h3>
             <a class="serenity__btn btn" href="#">Read more</a>
             <div class="finder">
@@ -181,34 +181,115 @@
 
         <!-- COMMENTS -->
         <section class="comments">
-            <h2 class="comments__title">What our client say</h2>
-            
+            <div class="comments__heading">
+                <h2 class="comments__title">What our client say</h2>
+                <a class="btn" href="#">View All</a>
+            </div>
+
             <div class="comments__row">
                 <div class="comments__item comment comment--opacity">
-                    <img class="comment__img" src="./assets/imgs/comments/ravi-shankor.jpg" alt="">
+                    <img class="comment__img" src="./assets/imgs/comments/david-lee.png" alt="David Lee">
                     <div class="comment__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit Ultrices.</div>
-                    <div class="comment__name">Ravi shankor</div>
-                    <a class="comment__link" href="">ravishankor@</a>
+                    <div class="comment__name">David Lee</div>
+                    <a class="comment__link" href="#">davidlee@</a>
                 </div>
                 <div class="comments__item comment comment--opacity">
-                    <img class="comment__img" src="./assets/imgs/comments/ravi-shankor.jpg" alt="">
+                    <img class="comment__img" src="./assets/imgs/comments/ravi-shankor.png" alt="Ravi Shankor">
                     <div class="comment__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit Ultrices.</div>
                     <div class="comment__name">Ravi shankor</div>
-                    <a class="comment__link" href="">ravishankor@</a>
+                    <a class="comment__link" href="#">ravishankor@</a>
                 </div>
                 <div class="comments__item comment comment--opacity">
-                    <img class="comment__img" src="./assets/imgs/comments/ravi-shankor.jpg" alt="">
+                    <img class="comment__img" src="./assets/imgs/comments/thomas-lew.png" alt="Thomas Lew">
                     <div class="comment__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit Ultrices.</div>
-                    <div class="comment__name">Ravi shankor</div>
-                    <a class="comment__link" href="">ravishankor@</a>
+                    <div class="comment__name">Thomas Lew</div>
+                    <a class="comment__link" href="#">thomaslew@</a>
                 </div>
             </div>
         </section>
         <!-- /COMMENTS -->
+
+        <!-- SUBSCRIPTION -->
+        <section class="subscription">
+            <h3 class="subscription__title">Stay in touch</h3>
+            <h2 class="subscription__subtitle">Join our email. First to know about specials, events and more!</h2>
+            <form class="subscription__form subscription--position" action="#">
+                    <label>
+                        <input type="email" class="subscription__box subscription-box-main" name="subscription__email" placeholder="Enter your email address">
+                    </label>
+                    <button class="btn subscription-button">Subscribe</button>
+            </form>
+        </section>
+        <!-- /SUBSCRIPTION -->
     </main>
+        
+        <!-- FOOTER -->
+    
+    <footer>
+        <div class="footer container">
+            <div class="about">
+                <a class="logo" href="#">
+                    <p class="logo__name footer-logo-name">Rayal Park</p>
+                    <img class="logo__image footer-logo-img " src="./assets/imgs/logo.png" alt="Rayal Park Logo">
+                </a>
+                <h4 class="about__title">Travel deals on hotels, flights, vacation packages.</h4>
+                <a class="about__mail" href="mailto:@shovasatkhira88.com">@shovasatkhira88.com</a>
+                <ol class="about__socials">
+                    <li>
+                        <a href="#"><img src="./assets/imgs/footer/facebook.png" alt="Facebook"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./assets/imgs/footer/instagram.png" alt="Instagram"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./assets/imgs/footer/twitter.png" alt="Twitter"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./assets/imgs/footer/google.png" alt="Google"></a>
+                    </li>
+                </ol>
+            </div>
+
+            <div class="pages">
+                <p class="footer__title">Home</p>
+                <ol class="pages__links">
+                    <li>
+                        <a class="pages__link" href="#">Accessibility</a>
+                    </li>
+                    <li>
+                        <a class="pages__link" href="#">Lertifiotion</a>
+                    </li>
+                    <li>
+                        <a class="pages__link" href="#">Knowledge</a>
+                    </li>
+                </ol>
+            </div>
+            
+            <div class="pages">
+                <p class="footer__title">Pages</p>
+                <ol class="pages__links">
+                    <li>
+                        <a class="pages__link" href="#">Blogs</a>
+                    </li>
+                    <li>
+                        <a class="pages__link" href="#">Careers</a>
+                    </li>
+                    <li>
+                        <a class="pages__link" href="#">Communing</a>
+                    </li>
+                </ol>
+            </div>
+            <div class="footer__subscription">
+                <p class="footer__title title--upercase">Subscribe</p>
+                <form class="subscription__form" action="#">
+                    <label>
+                        <input type="email" class="subscription__box subscription-box-footer" name="subscription__email" placeholder="Enter your email address">
+                    </label>
+                    <button class="btn subscription-button">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+    <!-- /FOOTER -->
 </body>
 </html>
-
-
-<a href="mailto:@mail.com">@mail.com</a>
-<a href="tel:+375615313456"></a>
