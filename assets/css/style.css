@@ -505,8 +505,8 @@ html {
     opacity: 1;
 }
 
-.comment--opacity:hover .comment-text::before{
-    filter: grayscale(0%)
+.comment--opacity:hover .comment__text::before {
+    filter: grayscale(0%);
 }
 
 .comment__img {
@@ -536,8 +536,8 @@ html {
     width: 24px;
     height: 20px;
     background-image: url(../imgs/quotes.svg);
-    filter: grayscale(100%);
     position: absolute;
+    filter: grayscale(100%);
     top: -25px;
     left: 0;
 }
