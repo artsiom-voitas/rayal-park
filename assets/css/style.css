@@ -224,11 +224,14 @@ html {
 
 
 /* HOLIDAYS */
+
+/* 320 +++++++ */
 .holidays {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 155px;
+    flex-wrap: wrap;
 }
 
 .holidays__images {
@@ -281,6 +284,43 @@ html {
     color: #081F32;
     margin-bottom: 31px;
 }
+
+/* 1024px-1169.75px */
+@media (min-width: 1024px) and (max-width: 1169.75px) {
+    .holidays__main-img {
+        max-width: 400px;
+    }
+
+    .holiday__title {
+        font-size: 28px;
+    }
+}
+/* 768px-1023.75px */
+@media (min-width: 768px) and (max-width: 1023.75px) {
+    .holidays__main-img {
+        max-width: 400px;
+    }
+
+    .holiday__title {
+        font-size: 28px;
+    }
+}
+/* 320px-767.75px*/
+@media (min-width: 320px) and (max-width: 767.75px) {
+    .holidays__background-img {
+        max-width: 100vw;
+        right: 0;
+    }
+    .holidays__main-img {
+        max-width: 100%;
+    }
+}
+
+
+
+
+
+
 /* /HOLIDAYS */
 
 
@@ -321,6 +361,8 @@ html {
 .advantages__block {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
 .advantages__item {
@@ -375,12 +417,12 @@ html {
     flex-wrap: wrap;
     align-items: center;
     align-content: space-between;
+    gap: 23px 30px;
 
 }
 
 .gallery__item {
     position: relative;
-    margin-bottom: 23px;
 }
 
 .gallery__img {
@@ -459,7 +501,7 @@ html {
 
 /* COMMENTS */
 .comments {
-    margin-top: 117px;
+    margin-top: 140px;
     margin-bottom: 140px;
 }
 
@@ -482,6 +524,8 @@ html {
 .comments__row {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
 .comments__item {
@@ -500,6 +544,8 @@ html {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    flex: 1 0 calc((100%-60px)/3);
+    max-width: calc((100%-60px)/3);
 }
 
 .comment--opacity:hover {
@@ -563,6 +609,29 @@ html {
     opacity: 0.7;
     text-decoration: none;
 }
+
+@media (min-width: 1024px) and (max-width: 1169.75px) {
+    .comment {
+    flex: 1 0 calc((100%-30px)/2);
+    max-width: calc((100%-30px)/2)
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023.75px) {
+    .comment {
+        flex: 1 0 calc((100%-30px)/2);
+        max-width: calc((100%-30px)/2)
+        }
+}
+@media (min-width: 320px) and (max-width: 767.75px) {
+    .comment {
+        flex: 1 0 100%;
+        max-width: 100%;
+    }
+
+}
+
+
 /* /COMMENTS  */
 
 /* SUBSCRIPTION */
