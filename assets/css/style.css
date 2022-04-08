@@ -232,6 +232,7 @@ html {
     justify-content: space-between;
     margin-bottom: 155px;
     flex-wrap: wrap;
+
 }
 
 .holidays__images {
@@ -259,7 +260,8 @@ html {
 }
 
 .holidays__content {
-    padding-left: 70px;
+    margin-left: 70px;
+    max-width: 430px;
 }
 
 .holiday__subtitle {
