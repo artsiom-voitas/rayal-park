@@ -730,12 +730,8 @@ footer {
     justify-content: space-between;
 }
 
-.pages__link {
-    opacity: 0.7;
-}
-
 .pages__link:hover {
-    opacity: 1;
+    color: #1B75BB
 }
 
 .pages__links a {
