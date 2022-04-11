@@ -220,6 +220,7 @@ html {
     color: #081F32;
     opacity: 0.8;
 }
+
 /* /SERENITY */
 
 
@@ -287,42 +288,6 @@ html {
     margin-bottom: 31px;
 }
 
-/* 1024px-1169.75px */
-@media (min-width: 1024px) and (max-width: 1169.75px) {
-    .holidays__main-img {
-        max-width: 400px;
-    }
-
-    .holiday__title {
-        font-size: 28px;
-    }
-}
-/* 768px-1023.75px */
-@media (min-width: 768px) and (max-width: 1023.75px) {
-    .holidays__main-img {
-        max-width: 400px;
-    }
-
-    .holiday__title {
-        font-size: 28px;
-    }
-}
-/* 320px-767.75px*/
-@media (min-width: 320px) and (max-width: 767.75px) {
-    .holidays__background-img {
-        max-width: 100vw;
-        right: 0;
-    }
-    .holidays__main-img {
-        max-width: 100%;
-    }
-}
-
-
-
-
-
-
 /* /HOLIDAYS */
 
 
@@ -368,7 +333,6 @@ html {
 }
 
 .advantages__item {
-    max-width: 262px;
     min-height: 258px;
     background: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -382,6 +346,8 @@ html {
     padding-top: 21px;
     padding-bottom: 17.59px;
     opacity: 0.8;
+    flex: 1 0 calc((100% - 90px)/4);
+    max-width: calc((100% - 90px)/4);
 }
 
 .advantages__item:hover {
@@ -409,6 +375,7 @@ html {
     color: #081F32;
     opacity: 0.6;
 }
+
 /* /ADVANTAGES */
 
 
@@ -425,6 +392,7 @@ html {
 
 .gallery__item {
     position: relative;
+    max-width: calc((100% - 30px)/2);
 }
 
 .gallery__img {
@@ -535,7 +503,6 @@ html {
     box-sizing: border-box;
     box-shadow: 0px 4px 30px rgba(199, 199, 199, 0.25);
     border-radius: 10px;
-    max-width: 360px;
     min-height: 325px;
     text-align: center;
     opacity: 0.7;
@@ -546,8 +513,8 @@ html {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    flex: 1 0 calc((100%-60px)/3);
-    max-width: calc((100%-60px)/3);
+    flex: 1 0 calc((100% - 60px)/3);
+    max-width: calc((100% - 60px)/3);
 }
 
 .comment--opacity:hover {
@@ -611,28 +578,6 @@ html {
     opacity: 0.7;
     text-decoration: none;
 }
-
-@media (min-width: 1024px) and (max-width: 1169.75px) {
-    .comment {
-    flex: 1 0 calc((100%-30px)/2);
-    max-width: calc((100%-30px)/2)
-    }
-}
-
-@media (min-width: 768px) and (max-width: 1023.75px) {
-    .comment {
-        flex: 1 0 calc((100%-30px)/2);
-        max-width: calc((100%-30px)/2)
-        }
-}
-@media (min-width: 320px) and (max-width: 767.75px) {
-    .comment {
-        flex: 1 0 100%;
-        max-width: 100%;
-    }
-
-}
-
 
 /* /COMMENTS  */
 
@@ -820,3 +765,91 @@ footer {
 }
 
 /* /FOOTER */
+
+/* 1024px-1169.75px */
+@media (min-width: 1024px) and (max-width: 1169.75px) {
+    .container {
+        max-width: 1024px;
+    }
+
+    .finder {
+        left: 0px;
+    }
+    .holidays__main-img {
+        max-width: 400px;
+    }
+
+    .holidays__background-img {
+        max-width: 400px;
+    }
+
+    .holidays__sprite-img {
+        max-width: 100px;
+        left: -8px;
+    }
+
+    .holiday__title {
+        font-size: 28px;
+    }
+
+    .comment {
+        flex: 1 0 calc((100% - 30px)/2);
+        max-width: calc((100% - 30px)/2);
+        }
+
+    .comments__row {
+        justify-content: center;
+    }
+    
+    .about__title {
+        font-size: 16px;
+    }
+
+    .footer__title {
+        font-size: 18px;
+    }
+
+    .subscription-box-footer {
+        min-width: 380px;
+    }
+
+    .advantages__item {
+        flex: 1 0 calc((100% - 60px)/2);
+        max-width: calc((100% - 60px)/2);
+    }
+
+    .gallery__img {
+        width: 450px;
+    }
+
+}
+
+/* 768px-1023.75px */
+@media (min-width: 768px) and (max-width: 1023.75px) {
+    .holidays__main-img {
+        max-width: 400px;
+    }
+
+    .holiday__title {
+        font-size: 28px;
+    }
+
+    .comment {
+        flex: 1 0 calc((100%-30px)/2);
+        max-width: calc((100%-30px)/2)
+        }
+}
+/* 320px-767.75px*/
+@media (min-width: 320px) and (max-width: 767.75px) {
+    .holidays__background-img {
+        max-width: 100vw;
+        right: 0;
+    }
+    .holidays__main-img {
+        max-width: 100%;
+    }
+    .comment {
+        flex: 1 0 100%;
+        max-width: 100%;
+    }
+}
