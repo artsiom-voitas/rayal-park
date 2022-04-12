@@ -834,6 +834,10 @@ footer {
         font-size: 16px;
     }
 
+    .footer-logo-img {
+        left: -14px;
+        bottom: -4px;
+    }
     .footer__title {
         font-size: 18px;
     }
