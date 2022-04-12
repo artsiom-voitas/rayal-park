@@ -1087,11 +1087,18 @@ footer {
     .holidays__background-img {
         max-width: 90%;
         right: 0;
+        top: -17px;
     }
     .holidays__main-img {
         max-width: 90%;
     }
     
+    .holidays__sprite-img {
+        max-width: 60px;
+        left: -5px;
+        bottom: -15px;
+    }
+
     .holidays__content {
         margin-top: 70px;
         max-width: 320px;
