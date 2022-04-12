@@ -27,6 +27,9 @@
                 <img class="logo__image" src="./assets/imgs/logo.png" alt="Rayal Park Logo">
                 <p class="logo__name header-logo-name">Rayal Park</p>
             </a>
+            <div class="nav__burger">
+                
+            </div>
             <ul class="header__navigation">
                 <li>
                 <a class="navigation__link active" href="#">Home</a>    
@@ -214,12 +217,14 @@
         <section class="subscription">
             <h3 class="subscription__title">Stay in touch</h3>
             <h2 class="subscription__subtitle">Join our email. First to know about specials, events and more!</h2>
-            <form class="subscription__form subscription--position" action="#">
-                    <label>
-                        <input type="email" class="subscription__box subscription-box-main" name="subscription__email" placeholder="Enter your email address">
-                    </label>
-                    <button class="btn subscription-button">Subscribe</button>
-            </form>
+            <div class="subscription-main--position">
+                <form class="subscription__form" action="#">
+                        <label>
+                            <input type="email" class="subscription__box subscription-box-main" name="subscription__email" placeholder="Enter your email address">
+                        </label>
+                        <button class="btn subscription-button">Subscribe</button>
+                </form>
+            </div>
         </section>
         <!-- /SUBSCRIPTION -->
     </main>
@@ -282,12 +287,14 @@
             </div>
             <div class="footer__subscription">
                 <p class="footer__title title--upercase">Subscribe</p>
-                <form class="subscription__form" action="#" >
-                    <label>
-                        <input type="email" class="subscription__box subscription-box-footer" name="subscription__email" placeholder="Enter your email address">
-                    </label>
-                    <button class="btn subscription-button">Subscribe</button>
-                </form>
+                <div class="subscription-footer--position">
+                    <form class="subscription__form" action="#" >
+                        <label>
+                            <input type="email" class="subscription__box subscription-box-footer" name="subscription__email" placeholder="Enter your email address">
+                        </label>
+                        <button class="btn subscription-button">Subscribe</button>
+                    </form>
+            </div>
             </div>
         </div>
     </footer>
